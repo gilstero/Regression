@@ -1,0 +1,123 @@
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7fafc;
+  padding: 30px;
+}
+
+/* Title Styles */
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #2b2c2f;
+  margin-bottom: 30px;
+}
+
+/* Point Selector Button Styles */
+.point-selector {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.point-button {
+  padding: 12px 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 600;
+}
+
+.point-button:hover {
+  opacity: 0.8;
+}
+
+.active-red {
+  /* background-color: #f87171; */
+  color: white;
+  border-color: #f87171;
+}
+
+.active-blue {
+  /* background-color: #60a5fa; */
+  color: white;
+  border-color: #60a5fa;
+}
+
+.active-black {
+  /* background-color: #d1d5db; */
+  color: black;
+  border-color: #28292b;
+}
+
+/* Canvas Styles */
+.canvas {
+  border: 3px solid #000000;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: crosshair;
+}
+
+/* Action Buttons Styles */
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.predict-button {
+  background-color: #10b981;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.predict-button:hover {
+  background-color: #059669;
+}
+
+.clear-button {
+  background-color: #d1d5db;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.clear-button:hover {
+  background-color: #9ca3af;
+}
+
+/* Instructions Styles */
+.instructions {
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  text-align: center;
+}
+
+.instructions h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.instructions ul {
+  text-align: left;
+  padding-left: 20px;
+  color: #4b5563;
+  font-size: 16px;
+}
